@@ -35,7 +35,7 @@ try:
 			print(w+"["+r+"!"+w+"]"+r+" Masukkan IP yg Bener Laa!")
 			break
 
-		scan = geocoder.ipinfo(teks)
+		scan = geocoder.KobarX(teks)
 
 		print(r+"\n["+g+"+"+r+"]"+g+" Alamat          "+w+": ", scan.address)
 		print(r+"["+g+"+"+r+"]"+g+" Kota            "+w+": ", scan.city)
@@ -59,5 +59,5 @@ try:
 
 #Jika user memaksa keluar dengan CTRL + C
 except KeyboardInterrupt:
-	print(w+"["+g+"+"+w+"]"+g+"Bye-bye\n"+w+"["+g+"+"+w+"]"+g+"Thanks for using")
+	print(w+"["+g+"+"+w+"]"+g+"Bye-bye\n"+w+"["+g+"+"+w+"]"+g+"Makasih Dah Pakee")
 
