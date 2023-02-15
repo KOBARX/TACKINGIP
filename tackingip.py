@@ -35,7 +35,7 @@ try:
 			print(w+"["+r+"!"+w+"]"+r+" Masukkan IP yg Bener Laa!")
 			break
 
-		scan = geocoder.KobarX(teks)
+		scan = geocoder.ipinfo(teks)
 
 		print(r+"\n["+g+"+"+r+"]"+g+" Alamat          "+w+": ", scan.address)
 		print(r+"["+g+"+"+r+"]"+g+" Kota            "+w+": ", scan.city)
